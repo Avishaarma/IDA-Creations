@@ -1,0 +1,487 @@
+.slide-1and2{
+    background: rgb(249,249,249);
+background: linear-gradient(0deg, rgba(249,249,249,1) 23%, rgba(152,113,160,1) 100%);
+}
+
+/* navnbar */
+.nav-image{
+    margin-left: 88px;
+}
+
+.navbar-nav{
+    margin-left: 155px;
+    font-size: 24px;
+}
+/* slide 1 */
+.container-fluid-one{
+    display: flex;
+}
+
+.fluid-one-container-one{
+    margin-left: 128px;
+    margin-top: 40px;
+}
+
+#image1{
+    height: 248px;
+    width: 380px;
+    border-radius: 20px;  
+}
+
+.fluid-one-headtwo{
+    margin-top: 23px;
+    font-family: "zilla slab", serif;
+    font-size: 35px;
+}
+
+.fluid-one-button{
+    margin-top: 10px;
+    width: 103px;
+    height: 36px;
+}
+
+.fluid-one-container-two{
+    margin-top: 40px;
+    margin-left: 165px;
+}
+
+#image2{
+    height: 338px;
+    width: 455px;  
+}
+
+/* slide 2 */
+.fluid-two-headtwo{
+    text-align: center;
+    margin-top: 97px;
+    font-family: 'Zilla Slab';
+    font-size: 37px;
+    font-weight: 500;
+}
+
+.container-fluid-two{
+    display: flex;
+    width: 100%;
+}
+
+.fluid-two-container-one{
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 133px;
+}
+
+.fluid-two-para{
+    font-size: 17px;
+    font-family: 'zilla-slab';
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.fluid-two-container-two{
+    width: 30%;
+}
+
+#image3{
+    height: 387px;
+    width: 310px;
+    margin-left: 14px;
+    margin-top: 30px;
+}
+
+
+/* slide 3 */
+.fluid-three-headtwo{
+    text-align: center;
+    margin-top: 103px;
+    font-family: 'Zilla Slab';
+    font-size: 40px;
+}
+.fluid-three-headthree{
+    text-align: center;
+    font-family: 'Zilla Slab';
+    font-size: 18px;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Zilla Slab';
+}
+
+
+.container-fluid-three {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    gap: 10px;
+}
+
+.container-fluid-three div {
+    padding: 10px;
+    text-align: center;
+    color: #333;
+    transition: transform 0.3s ease;
+}
+
+.container-fluid-three div:hover {
+    transform: scale(1.2);
+}
+/* slide 4 */
+.fluid-four-headtwo{
+    text-align: center;
+    margin-top: 131px;
+    font-family: 'Zilla Slab';
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.fluid-four-headfour{
+    text-align: center;
+    margin-top: 13px;
+    font-family: 'Zilla Slab';
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.container-fluid-four{
+    text-align: center;
+    margin-top: 86px;
+    font-family: 'Zilla Slab';
+    font-size: 19px;
+    font-weight: 300;
+
+}
+
+.fluid-four-container-one{
+    border: 1px solid black;
+    border-radius: 90px;
+    transition: all 0.3s ease;
+}
+
+.fluid-four-container-one:hover{
+    background-color: #d4e9ff;
+    transform: scale(1.1);
+}
+
+.fluid-four-container-two{
+    border: 1px solid black;
+    border-radius: 90px;
+    margin-top:36px;
+    transition: all 0.3s ease;
+}
+
+.fluid-four-container-two:hover{
+    background-color: #d4e9ff;
+    transform: scale(1.1);
+}
+.fluid-four-container-three{
+    border: 1px solid black;
+    border-radius: 90px;
+    margin-top:36px;
+    transition: all 0.3s ease;
+}
+
+.fluid-four-container-three:hover{
+    background-color: #d4e9ff;
+    transform: scale(1.1);
+}
+
+.image4{
+    height: 100px;
+    width: 100px;
+}
+
+/* slide 5 */
+.container-fluid-five{
+    display: flex;
+    margin-top: 102px;
+}
+.fluid-five-container-one{
+    margin-left: 135px;
+    border: 1px solid black;
+    width: 392px;
+    height: 319px;
+    border-radius: 30px;
+}
+.fluid-five-container-two{
+    margin-left: 20px;
+    border: 1px solid black;
+    width: 418px;
+    border-radius: 30px;
+}
+.fluid-five-container-three{
+    margin-left: 20px;
+    border: 1px solid black;
+    width: 420px;
+    border-radius: 30px;
+}
+
+.image5{
+    height: 130px;
+    width: 222px;
+    margin-left: 77px;
+    margin-top: 25px;
+}
+
+.card2-head3{
+    text-align: center;
+    margin-top: 15px;
+    font-family: "zilla-slab";
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.card2-para{
+    text-align: center;
+    font-family: "zilla-slab";
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.card-btn{
+    display: flex;
+    justify-content: center;
+    margin-left: 124px;
+    width: 119px;
+    height: 36px;
+    background-color: darkblue;
+}
+
+/* slide 6 */
+.fluid-four-headfourr{
+    text-align: center;
+    margin-top: 13px;
+    font-family: 'Zilla Slab';
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    margin-bottom: 100px;
+}
+
+.marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 25s linear infinite;
+}
+
+.marquee-content img {
+    width: 150px;
+    height: auto;
+    margin-right: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* footer */
+footer{
+    display: flex;
+    background-color: black;
+    height: 300px;
+}
+
+.footer-container-one{
+    margin-left: 90px;
+    margin-top: 25px;
+}
+
+.footer-Cone-headtwo{
+    color: white;
+    font-size: 24px;
+    font-family: "zilla-slab";
+    font-weight: 600;
+
+}
+
+.footer-Cone-para{
+    margin-top: 24px;
+    font-family: "zilla-slab";
+    font-size: 14px;
+    line-height: 22px;
+    color: white;
+}
+
+.social{
+    display: flex;
+    gap: 15px;
+    color: white;
+}
+
+.form{
+    margin-left: 99px;
+    margin-top: 25px;
+}
+
+.form-headtwo{
+    font-size: 24px;
+    margin-left: 98px;
+    font-family: "zilla-slab";
+    font-weight: 600;
+    color: white;
+}
+
+.map-container{
+    margin-left: 147px; 
+    margin-top: 25px;
+}
+
+.map-frame{
+    width: 340px;
+    height: 269px;
+}
+
+.label-one{   
+    font-family: "zilla-slab";
+    font-size: 20px;
+    margin-top: 17px;
+    color: white;
+
+}
+.input-one{
+    margin-left: 68px;
+    border-radius: 7px;
+}
+.label-two{
+    font-family: "zilla-slab";
+    font-size: 20px;
+    margin-top: 17px;
+    color: white;
+
+}
+.input-two{
+    margin-left: 68px;
+    border-radius: 7px;
+}
+.label-three{
+    font-family: "zilla-slab";
+    font-size: 20px;
+    margin-top: 17px;
+    color: white;
+
+}
+.input-three{
+    margin-left: 19px;
+    border-radius: 7px;
+}
+
+.form-btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 122px;
+    margin-top: 14px;
+}
+
+
+
+/* Chatbot */
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.chat-container {
+    padding: 16px;
+}
+
+.chat-box {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.chat-message {
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.user-message {
+    background-color: #e1ffc7;
+    align-self: flex-end;
+}
+
+.bot-message {
+    background-color: #d1e7ff;
+}
+
+#user-input {
+    width: calc(100% - 70px);
+    padding: 8px;
+    margin-right: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.chat-button {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.chat-button:hover {
+    background-color: #0056b3;
+}
